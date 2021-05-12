@@ -1,0 +1,108 @@
+header {
+    background-color: #2665a6;
+    text-align: center;
+    font-size: xxx-large;
+    color: white;
+}
+
+.list-todo {
+    height: 60px;
+    width: 100%;
+    overflow-y: scroll;
+    background-color: #e8e8e8;
+    margin: 10px 10px;
+}
+
+.img-engranaje {
+    height: 1em;
+    border-radius: 100%;
+    margin: 0px 5px;
+    vertical-align: middle;
+}
+
+.nueva-tarea {
+    width: 95%;
+    left: 0px;
+    height: 10em;
+    overflow-y: scroll;
+    position: relative;
+    border-style: solid;
+    border-width: thin;
+    color: #2f3a31;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.list-check p {
+    height: 50px;
+}
+
+.list-check label {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.img-exclamacion {
+    border-radius: 100%;
+    width: 15%;
+}
+
+#btn-agregar {
+    border-radius: 15px;
+    margin: 5px;
+    margin-bottom: 10px;
+    color: #f1f2f3;
+    background-color: #73a5ce;
+}
+
+.btn-agregar img {
+    height: 1em;
+    border-radius: 100%;
+}
+
+.containner-checks {
+    border-style: solid;
+    border-width: thin;
+    overflow-y: scroll;
+    height: 66%;
+    position: absolute;
+    width: 95%;
+    margin-left: 10px;
+}
+
+.item-check {
+    display: flex;
+    background: #dbd5d0;
+    background: linear-gradient( 0deg, rgb(86 150 209) 26%, rgb(96 159 245) 59%, rgb(96 193 255) 100%);
+    height: 3em;
+    margin-bottom: 5px;
+    padding: 0px 10px;
+}
+
+.item-check input,
+.item-check label {
+    display: inline-flex;
+    padding: 10px;
+}
+
+.item-check input {
+    height: 3em;
+    width: 1.5em;
+}
+
+.item-check span {
+    color: white;
+    align-items: center;
+    width: 100%;
+    padding: 0px 10px;
+    font-size: large;
+}
+
+.item-check label {
+    padding-top: 10px;
+    width: 100%;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    border: 2px solid #262aa6 !important;
+    background-color: #155d9b !important;
+}
